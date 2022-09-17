@@ -3,7 +3,7 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class SpriteBehavior : MonoBehaviour
 {
-    private SpriteRenderer rendererObj;
+    public SpriteRenderer rendererObj;
 
     private void Start()
     {
