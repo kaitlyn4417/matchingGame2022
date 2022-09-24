@@ -3,9 +3,9 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class SpriteBehavior : MonoBehaviour
 {
-    public SpriteRenderer rendererObj;
+    private SpriteRenderer rendererObj;
 
-    private void Start()
+    private void Awake()
     {
         rendererObj = GetComponent<SpriteRenderer>();
     }

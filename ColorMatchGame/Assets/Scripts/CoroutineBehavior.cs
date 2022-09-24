@@ -10,7 +10,7 @@ public class CoroutineBehavior : MonoBehaviour
 
 	public IntData counterNum;
 	
-	public float seconds = 3.0f;
+	public float seconds;
 	private WaitForSeconds wfsObj;
 	private WaitForFixedUpdate wffuObj;	
 
