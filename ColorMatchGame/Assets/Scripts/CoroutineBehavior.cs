@@ -12,7 +12,13 @@ public class CoroutineBehavior : MonoBehaviour
 	
 	public float seconds;
 	private WaitForSeconds wfsObj;
-	private WaitForFixedUpdate wffuObj;	
+	private WaitForFixedUpdate wffuObj;
+
+	public bool CanRun
+	{
+		get => CanRun;
+		set => CanRun = value;
+	}
 
 	private void Start()
 	{

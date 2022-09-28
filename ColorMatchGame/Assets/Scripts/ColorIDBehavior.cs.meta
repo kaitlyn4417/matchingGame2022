@@ -5,7 +5,7 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - idObj: {instanceID: 0}
-  - colorIDDataListObj: {instanceID: 0}
+  - colorIDDataListObj: {fileID: 11400000, guid: e0e8291a52befd146b4c9a340927edfd, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
